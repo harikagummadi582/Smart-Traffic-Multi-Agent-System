@@ -1,0 +1,10 @@
+{
+    "junction_1": {
+        "vehicle_count": 31,
+        "avg_speed": 33
+    },
+    "junction_2": {
+        "vehicle_count": 10,
+        "avg_speed": 22
+    }
+}
