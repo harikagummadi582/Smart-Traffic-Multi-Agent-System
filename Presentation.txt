@@ -1,0 +1,45 @@
+✅ Slide 1: Problem Statement & My Solution
+Title: Solving Real-Time Traffic Challenges with AI Agents
+The Problem:
+Urban traffic systems struggle to adapt quickly during emergencies and peak traffic hours.
+Traditional systems follow fixed signal timers, leading to congestion and delays.
+My Solution:
+I developed a multi-agent simulation to create adaptive and intelligent traffic control.
+Each AI agent is responsible for handling a specific aspect of the traffic system, enabling decentralized and dynamic decision-making.
+✅ Slide 2: Technical Architecture
+Title: System Architecture & Agent Design
+Agents Involved:
+Event Simulator – Generates random real-time events (rush hour, roadblocks, etc.) and updates traffic data.
+Emergency Agent – Detects emergencies and simulates route clearance.
+Traffic Light Agent – Dynamically adjusts green signal durations based on traffic volume and events.
+Vehicle Agent – Simulates vehicle behavior (e.g., rerouting, slowing down) based on traffic conditions.
+Communication Flow:
+All agents interact by reading from and writing to shared JSON files:
+event.json
+datasets/traffic_data.json
+✅ Slide 3: Demo & Key Features
+Title: System in Action
+Live Console Outputs Show:
+Signal timings dynamically change depending on vehicle count and event type.
+Emergency routes are cleared when an emergency is detected.
+Vehicles respond to traffic events like roadblocks and accidents.
+Key Features:
+Real-time simulation of traffic scenarios
+Adaptive and event-aware traffic signal control
+Agent-based, modular architecture
+✅ Slide 4: Challenges & What I Learned
+Title: Roadblocks & Learnings
+Challenges Faced:
+Managing coordination between independently running agents using shared files
+Designing scalable logic that responds to dynamic scenarios
+Creating realistic traffic conditions with limited resources
+Key Learnings:
+Modular agent design made debugging and testing easier
+Time-based coordination is crucial for simulating real-time systems
+Simulation helped me better understand traffic control logic and system design
+✅ Slide 5: Future Enhancements
+Title: Taking It Further
+Replace file-based communication with real-time protocols like MQTT or WebSocket
+Add a graphical dashboard to visualize traffic patterns and junction data
+Integrate predictive analytics to forecast traffic flow and events
+Use real-world traffic datasets for validation and testing

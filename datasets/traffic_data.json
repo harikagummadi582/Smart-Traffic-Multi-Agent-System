@@ -1,10 +1,10 @@
 {
     "junction_1": {
-        "vehicle_count": 31,
-        "avg_speed": 33
+        "vehicle_count": 25,
+        "avg_speed": 29
     },
     "junction_2": {
-        "vehicle_count": 10,
-        "avg_speed": 22
+        "vehicle_count": 29,
+        "avg_speed": 30
     }
 }
